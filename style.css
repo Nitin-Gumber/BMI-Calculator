@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#homepage {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#homepage form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#homepage form input {
+  width: 10rem;
+  height: 2rem;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0.3rem;
+}
+#homepage form button {
+  width: 10rem;
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+#results {
+  margin: 1rem;
+  border-radius: 5px;
+  /* border: 1px solid #ccc; */
+  color: #000;
+  font-size: 1rem;
+}
+#bmiRange {
+  margin: 1rem;
+  border-radius: 5px;
+  /* border: 1px solid #ccc; */
+  color: #000;
+  font-size: 1rem;
+}
+#homepage form button:hover {
+  background-color: #ccc;
+}
+#homepage h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#homepage .guid {
+  width: 20rem;
+  height: 10rem;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+#homepage .guid h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+#homepage .guid p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.social_media {
+  text-align: center;
+}
+.social_media h2 {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.social_media a {
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: black;
+}

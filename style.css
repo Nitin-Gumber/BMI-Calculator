@@ -37,16 +37,14 @@
   cursor: pointer;
 }
 #results {
-  margin: 1rem;
+  margin: 0.5rem;
   border-radius: 5px;
-  /* border: 1px solid #ccc; */
   color: #000;
   font-size: 1rem;
 }
 #bmiRange {
-  margin: 1rem;
+  margin: 0.5rem;
   border-radius: 5px;
-  /* border: 1px solid #ccc; */
   color: #000;
   font-size: 1rem;
 }
@@ -64,7 +62,7 @@
   border-radius: 5px;
   border: 1px solid #ccc;
   padding: 1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 #homepage .guid h3 {
   font-size: 1.2rem;

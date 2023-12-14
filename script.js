@@ -15,7 +15,7 @@ form.addEventListener("submit", function (e) {
   } else if (weight === "" || weight < 0 || isNaN(weight)) {
     results.innerHTML = `Please give a valid weight ${weight}`;
   } else {
-    results.innerHTML = weight / ((height * height) / 10000).toFixed(2);
+    results.innerHTML = (weight / ((height * height) / 10000)).toFixed(2);
   }
   if (results.innerHTML < 18.6) {
     bmiRange.innerHTML = `Under Weight`;

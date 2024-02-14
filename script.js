@@ -1,3 +1,4 @@
+"use strick"
 // Selectors
 const form = document.querySelector("form");
 const bmiRange = document.querySelector("#bmiRange");
